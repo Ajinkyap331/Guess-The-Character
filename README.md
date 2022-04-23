@@ -8,9 +8,10 @@
 
 ### TO DO
 
-- [x] PROJECT INIT [GO](Main.java)
-- [x] SWING INIT [GO](FRONTEND/Frontend.java)
-- [ ] DATABASE INIT [GO](Database/Data.java)
+-  GTC [GO](Main.java)
+-  SWING [GO](Frontend.java)
+-  DATABASE [GO](Data.java)
+-  CALCULATIONS [CODE](Calculate.java)
 
 ### Contributors
 
