@@ -1,6 +1,6 @@
 package gtc;
 
-public class Main {
+public class GTC {
     public static void main(String[] args) {
         
     }    
