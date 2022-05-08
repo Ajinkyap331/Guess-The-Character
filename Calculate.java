@@ -14,7 +14,6 @@ public class Calculate {
         Arrays.fill(inp, 0);
     }
 
-    
     public int categorizeInput(int pos, int val){
         inp[pos] = val;
         for(int i = 0 ; i < Data.Name.length; i++){
