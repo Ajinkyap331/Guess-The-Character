@@ -8,9 +8,9 @@
 
 ### TO DO
 
--  GTC [GO](Main.java)
--  SWING [GO](Frontend.java)
--  DATABASE [GO](Data.java)
+-  GTC [CODE](GTC.java)
+-  SWING [CODE](Frontend.java)
+-  DATABASE [CODE](Data.java)
 -  CALCULATIONS [CODE](Calculate.java)
 
 ### Contributors
