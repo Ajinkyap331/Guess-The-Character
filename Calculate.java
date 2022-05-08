@@ -18,11 +18,14 @@ public class Calculate {
         inp[pos] = val;
         for(int i = 0 ; i < Data.Name.length; i++){
             if(Data.YN[i][pos] == inp[pos])
-                fav[i] = fav[i] + (float)1/5;
+                fav[i] = fav[i] + (float)1/(Data.Q.length);
+            else
+                fav[i] = fav[i] - (float)1/(Data.Q.length);
         }
-        int max = 0;
+        int max = -1;
         for(int i = 0 ; i < Data.Name.length ; i++){
-            max = fav[i] > fav[max] ? i : max;
+            if(fav[i] >= 1)
+                max = i;   
         }
         return max;
     }
